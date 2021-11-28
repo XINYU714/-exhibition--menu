@@ -61,6 +61,7 @@ div.push div.overlay-content div.row div.team {
   margin-bottom: 2rem;
   max-width: 400px;
   border-radius: 1.25rem;
+  border: solid 2.5px rgba(255, 244, 199, 0);
 }
 div.push div.overlay-content div.row div.team:hover {
   transition: linear 0.3s;

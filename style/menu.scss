@@ -61,6 +61,7 @@ div.push {
         margin-bottom: $space;
         max-width: 400px;
         border-radius: 1.25rem;
+        border: solid 2.5px rgba($color: #fff4c7, $alpha: 0);
         &:hover {
           transition: linear 0.3s;
           border: solid 2.5px #fff4c7;
