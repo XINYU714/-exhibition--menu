@@ -2,11 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Klaxons Regular";
 }
 
 header {
   position: fixed;
+  font-family: "Klaxons Regular";
   width: 100%;
   top: 0;
   z-index: 100;
@@ -47,6 +47,7 @@ div.push {
 div.push div.overlay-content {
   width: 100%;
   position: relative;
+  font-family: "Klaxons Regular";
 }
 div.push div.overlay-content button.closebtn {
   font-size: 2rem;
