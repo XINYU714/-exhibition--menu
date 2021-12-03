@@ -6,7 +6,9 @@
   max-width: 100%;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed {
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
@@ -30,15 +32,17 @@
 }
 
 @font-face {
-  font-family: 'Klaxons Regular';
+  font-family: "Klaxons Regular";
   font-style: normal;
   font-weight: normal;
   src: local("Klaxons Regular"), url("/css/Klaxons.woff") format("woff");
 }
-
+.occupation p {
+  width: 135px;
+}
 .pfix {
-  padding-left: -calc(var(--bs-gutter-x)/2);
-  padding-right: -calc(var(--bs-gutter-x)/2);
+  padding-left: -calc(var(--bs-gutter-x) / 2);
+  padding-right: -calc(var(--bs-gutter-x) / 2);
 }
 
 .bg {
@@ -99,7 +103,7 @@
   background-color: #caf0f8;
   border-radius: 10px;
   position: relative;
-  font-family: 'Klaxons Regular';
+  font-family: "Klaxons Regular";
   font-weight: 600;
 }
 
@@ -113,15 +117,15 @@
 
 .changePage .Next::after {
   position: absolute;
-  content: '\21C0';
+  content: "\21C0";
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   top: 35px;
 }
 
 .changePage .Next:hover::after {
-  -webkit-animation: arrowRMove .3s linear;
-          animation: arrowRMove .3s linear;
+  -webkit-animation: arrowRMove 0.3s linear;
+  animation: arrowRMove 0.3s linear;
 }
 
 .changePage .Last {
@@ -130,16 +134,16 @@
 
 .changePage .Last::before {
   position: absolute;
-  content: '\21BC';
+  content: "\21BC";
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   top: 35px;
   left: 20px;
 }
 
 .changePage .Last:hover::before {
-  -webkit-animation: arrowLMove .3s linear;
-          animation: arrowLMove .3s linear;
+  -webkit-animation: arrowLMove 0.3s linear;
+  animation: arrowLMove 0.3s linear;
 }
 
 .changePage a {
@@ -151,10 +155,10 @@
 
 .changePage a:hover {
   color: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .bg_blue {
@@ -174,12 +178,12 @@
   0% {
     opacity: 0;
     -webkit-transform: translateX(-120px);
-            transform: translateX(-120px);
+    transform: translateX(-120px);
   }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -187,12 +191,12 @@
   0% {
     opacity: 0;
     -webkit-transform: translateX(-120px);
-            transform: translateX(-120px);
+    transform: translateX(-120px);
   }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -200,12 +204,12 @@
   0% {
     opacity: 0;
     -webkit-transform: translateX(120px);
-            transform: translateX(120px);
+    transform: translateX(120px);
   }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -213,12 +217,12 @@
   0% {
     opacity: 0;
     -webkit-transform: translateX(120px);
-            transform: translateX(120px);
+    transform: translateX(120px);
   }
   100% {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 /*# sourceMappingURL=all.css.map */
